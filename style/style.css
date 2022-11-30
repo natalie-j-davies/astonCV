@@ -1,0 +1,181 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+}
+#index-header{
+    text-align: center;
+    font-size: 24px;
+    color:rgb(131, 29, 142);
+}
+#index-login{
+    font-size: 16px;
+    color: #333;
+}
+#index-pic{
+    background-color: lightgray;
+    color: #333;
+    width: 100%;
+    margin: auto;
+}
+#image{
+    width: 350px;
+    padding: 15px;
+}
+#search{
+    width: 200px;
+    padding: 10px;
+    color: black;
+}
+#search-button{
+    padding: 10px;
+}
+#cv-container{
+    width: 60%;
+    padding: 30px; 
+    background-color: #f3f3f3;   
+    text-align: left;
+    margin: auto;
+}
+#cv-box{
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #eee;
+
+}
+
+#header{
+    text-align: center;
+  }
+#search input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+#main{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+  }
+
+
+#cv-info-header{
+    width: 85%;
+    padding: 30px; 
+   font-size: 32px;
+    text-align: center;
+    margin: auto;
+}
+#cv-info-box{
+    padding: 30px;
+    background-color: #fff;
+    font-size: 16px;
+}
+#cv-info-box h3{
+    text-decoration: underline;
+    font-size: 26px;
+}
+#cv-info-box p{
+    padding: 10px;
+}
+/*REGISTER FORM*/
+#register{
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
+/*ADDCV FORM PAGE addCV.php*/
+#register-form {
+    text-align: left;
+    background-color: #f3f3f3;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border: #333 solid;
+    padding: 10px;
+}
+#register-form label{
+    padding: 5px;
+}
+#register-form input{
+    padding: 5px;
+}
+#register-form h3{
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+}
+/*SUBMIT BUTTONS */
+#submit-clear{
+    text-align: right;
+    padding: 5px;
+    font-weight: bold;
+}
+#submit-clear :hover {
+    background-color: purple;
+    color: #eee;
+  }
+#congrats{
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+}
+/*UPDATE SECTION*/
+#register-form-update{
+    text-align: left;
+    background-color: aliceblue;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    padding: 10px;
+}
+#register-form-update h3{
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+}
+#register-form-update label{
+    padding: 5px;
+}
+#register-form-update input{
+    padding: 5px;
+}
+
+/*LOGOUT PAGE logout.php*/
+#log-out {
+    text-align: center;
+    margin: auto;
+    background-color: #f3f3f3;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+
+}
+#log-out h2{
+    padding: 10px;
+    color: purple;
+}
+#log-out p{
+    padding: 10px;
+}
+#log-out button{
+    padding: 10px;
+    background-color: #eee;
+}
+#log-out button:hover {
+    background-color: purple;
+    color: #eee;
+  }
+/*HOME PAGE BUTTON ALL PAGES
+includes log out button on addCV.php*/
+#homepage-button{
+    font-size: 16px;
+    text-align: center;
+}
